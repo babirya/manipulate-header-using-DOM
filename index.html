@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MANUPILATION </title> 
+    <link rel="stylesheet" href="style.css"> 
+
+<link rel="shortcut icon" sizes="12x12"  href="favicon.jpg">
+    <script src="dom.js"></script>
+</head>
+<body>
+            <header id="he"> 
+
+               <h1> <center>bad News</center> </h1>    
+            </header> 
+
+            <div id="d1"> 
+            <p id="p1">Edit header</p> 
+         <input type="button" name="" id="bn1" value="yes" onclick="showedit();">
+         <input type="button" name="" id="bn2" value="hide"  onclick="showedit2();"> 
+         
+
+            </div> 
+             <!-- edit part -->
+
+
+            <div id="d2" style="display: none;">    
+                            <!-- edit background text -->
+                            <p> enter title of website</p> 
+                            <input type="text" id="inv">
+                                <!-- edit background color -->
+                        <p>chose a background color for Header</p>
+                        <select name="" id="s1">  
+                            <option value="0">choose</option>
+                            <option value="1">Red</option> 
+                            <option value="2">blue</option> 
+                            <option value="3">green</option> 
+                            <option value="4">yellow</option> 
+                        </select>
+                        <br> <br>  
+                        <p id="sp"></p>
+                         <p>border button</p> <input type="checkbox" id="bnk" onchange="bnk()">
+                        <br> 
+                        <input type="button" value="apply" onclick="color()"> 
+
+                        
+            </div>
+
+
+</body>
+</html>
